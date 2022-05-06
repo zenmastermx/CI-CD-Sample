@@ -2,7 +2,7 @@
 public with sharing class Sample_Test {
     @IsTest
     private static void getBackwardString() {
-        // Test comment
+        // Test comment modified
         String revStr = Sample.getBackwardString('abc');
         System.assertEquals('cba', revStr);
     }
