@@ -4,6 +4,6 @@ public with sharing class Sample_Test {
     private static void getBackwardString() {
         // Test asdf
         String revStr = Sample.getBackwardString('abc');
-        System.assertEquals('cba', revStr, 'Worked');
+        System.assertEquals('Hello', revStr, 'Worked');
     }
 }
